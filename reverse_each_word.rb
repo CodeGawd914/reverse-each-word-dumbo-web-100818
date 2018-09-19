@@ -1,5 +1,5 @@
 def reverse_each_word(string)
   words = string.split(" ")
   bakwards = []
-  words.each { |turn| words.push(turn)
+  words.each { |turn| backwards << turn.reverse}
 end
